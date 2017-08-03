@@ -7,10 +7,10 @@ const port = process.env.PORT || 3000;
 app.use(morgan('combined'));
 
 const postgresConfig = {
-  database: process.env. POSTGRES_DB|| 'db',
-  host: process.env.POSTGRES_HOST || 'db',
-  user: process.env.POSTGRES_USER || 'db',
-  password: process.env.POSTGRES_PASSWORD || 'db'
+  database: process.env. POSTGRESQL_DB|| 'db',
+  host: process.env.POSTGRESQL_HOST || 'db',
+  user: process.env.POSTGRESQL_USER || 'db',
+  password: process.env.POSTGRESQL_PASSWORD || 'db'
 };
 
 const pool = new pg.Pool(postgresConfig);
