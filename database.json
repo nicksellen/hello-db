@@ -2,9 +2,9 @@
   "defaultEnv": "env",
   "env": {
     "driver": "pg",
-    "user": {"ENV": "POSTGRES_USER"},
-    "password": {"ENV": "POSTGRES_PASSWORD"},
-    "database": {"ENV": "POSTGRES_DB"},
-    "host": {"ENV": "POSTGRES_HOST"}
+    "user": {"ENV": "POSTGRESQL_USER"},
+    "password": {"ENV": "POSTGRESQL_PASSWORD"},
+    "database": {"ENV": "POSTGRESQL_DB"},
+    "host": {"ENV": "POSTGRESQL_HOST"}
   }
 }
